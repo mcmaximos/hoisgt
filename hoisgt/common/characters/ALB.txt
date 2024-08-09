@@ -1,0 +1,48 @@
+characters={
+	ALB_danya={
+		name = "Даня"
+		#desc = "БАРОН ЭЛЬДЬЯГО САНТА-МАРИЯ ЧЕТВЕРТЫЙ, ВЕЛИЧАЙШИЙ ПОВЕЛИТЕЛЬ ГОСУДАРСТВА ИМПЕРИИ, КОРОЛЬ СЕВЕРНЫХ ЗЕМЕЛЬ ТРЭШЛЯНДИИ И НАРОДА СИТХОВ"
+		portraits={
+			civilian={
+				large="GFX_danya"
+			}
+		}
+		country_leader={
+			ideology = nazism
+			traits={ dictator}
+			id=-1
+		}
+	}
+	
+	ALB_igor={
+		name="Игорь"
+		portraits={
+			civilian={
+				large=GFX_igor
+				small=GFX_igor_smol
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			id=-1
+		}
+		advisor={
+			cost = 100
+			
+			slot = political_advisor
+			idea_token = ALB_igor
+			ledger = army
+				allowed = {
+					original_tag = ALB
+				}
+				
+				traits = {
+					captain_of_industry 
+					silent_workhorse 
+				}
+		}
+	}
+	
+	
+}

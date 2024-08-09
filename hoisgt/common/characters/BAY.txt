@@ -1,0 +1,48 @@
+characters={
+	BAY_nekit={
+		name = "Некит"
+		#desc = "БАРОН ЭЛЬДЬЯГО САНТА-МАРИЯ ЧЕТВЕРТЫЙ, ВЕЛИЧАЙШИЙ ПОВЕЛИТЕЛЬ ГОСУДАРСТВА ИМПЕРИИ, КОРОЛЬ СЕВЕРНЫХ ЗЕМЕЛЬ ТРЭШЛЯНДИИ И НАРОДА СИТХОВ"
+		portraits={
+			civilian={
+				large="GFX_nekit"
+			}
+		}
+		country_leader={
+			ideology = stalinism
+			
+			id=-1
+		}
+	}
+	
+	BAY_vlad={
+		name="Влад"
+		portraits={
+			civilian={
+				large=GFX_vlad
+				small=GFX_vlad_smol
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ dictator}
+			id=-1
+		}
+		advisor={
+			cost = 100
+			
+			slot = political_advisor
+			idea_token = BAY_vlad
+			ledger = army
+				allowed = {
+					original_tag = BAY
+				}
+				
+				traits = {
+					captain_of_industry 
+					silent_workhorse 
+				}
+		}
+	}
+	
+	
+}

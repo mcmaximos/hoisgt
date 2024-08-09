@@ -1,0 +1,27 @@
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		68 82 100 122 146 152 291 306 395 400 442 515 521 523 524 533 662 734 738 740 744 
+	}
+	history={
+		owner = ALB
+		victory_points = {
+			100 15
+		}
+		victory_points = {
+			738 15
+		}
+		buildings = {
+			arms_factory = 5
+			industrial_complex = 1
+			air_base = 2
+			infrastructure = 3
+		}
+		add_core_of = ALB
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=1515030
+        state_category = town
+}

@@ -1,0 +1,76 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		
+		"CUB"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		
+		}
+		"ALB"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_form_the_popular_front
+				FRA_revive_the_national_bloc
+				FRA_france_leads
+			}
+		
+		}
+		"BAY"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_form_the_popular_front
+				FRA_revive_the_national_bloc
+				FRA_france_leads
+			}
+		
+		}
+		"LUX"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_form_the_popular_front
+				FRA_revive_the_national_bloc
+				FRA_france_leads
+			}
+		
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

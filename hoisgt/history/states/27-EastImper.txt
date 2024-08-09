@@ -1,0 +1,18 @@
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		81 189 274 302 401 452 490 598 603 709 
+	}
+	history={
+		owner = CUB
+		
+		buildings = {
+			
+		}
+		add_core_of = CUB
+	}
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

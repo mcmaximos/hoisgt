@@ -1,0 +1,23 @@
+state={
+	id=39
+	name="STATE_39"
+	provinces={
+		1 42 76 249 256 259 355 462 478 574 735 736 
+	}
+	history={
+		victory_points = {
+			76 15
+		}
+		owner = BAY
+		
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+		}
+		add_core_of = BAY
+	}
+	buildings_max_level_factor=1.000
+        manpower=252130
+        state_category = town
+}

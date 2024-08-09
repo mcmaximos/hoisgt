@@ -1,0 +1,19 @@
+state={
+	id=23
+	name="STATE_23"
+	provinces={
+		6 29 45 55 57 78 84 89 102 105 159 166 170 212 258 270 281 283 298 324 350 363 364 437 542 557 560 561 604 614 699 700 708 
+	}
+	history={
+		owner = ALB
+		
+		buildings = {
+			
+		}
+		add_core_of = ALB
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

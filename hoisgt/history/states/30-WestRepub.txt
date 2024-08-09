@@ -1,0 +1,19 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		17 443 550 717 
+	}
+	history={
+		owner = BAY
+		
+		buildings = {
+			
+		}
+		add_core_of = BAY
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

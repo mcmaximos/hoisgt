@@ -1,0 +1,74 @@
+characters={
+	CUB_lexa={
+		name = "Леха"
+		#desc = "БАРОН ЭЛЬДЬЯГО САНТА-МАРИЯ ЧЕТВЕРТЫЙ, ВЕЛИЧАЙШИЙ ПОВЕЛИТЕЛЬ ГОСУДАРСТВА ИМПЕРИИ, КОРОЛЬ СЕВЕРНЫХ ЗЕМЕЛЬ ТРЭШЛЯНДИИ И НАРОДА СИТХОВ"
+		portraits={
+			civilian={
+				large="GFX_lexa"
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits={ dictator}
+			id=-1
+		}
+	}
+	
+	CUB_petrarko={
+		name="Пётр"
+		portraits={
+			civilian={
+				large=GFX_petya
+				small=GFX_petya_smol
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			
+			id=-1
+		}
+		advisor={
+			cost = 100
+			
+			slot = political_advisor
+			idea_token = CUB_petrarko
+			ledger = army
+				allowed = {
+					original_tag = CUB
+				}
+				
+				traits = {
+					captain_of_industry 
+					silent_workhorse 
+				}
+		}
+	}
+	
+	CUB_max={
+		name="Макс"
+		portraits={
+			civilian={
+				large=GFX_max
+				small=GFX_max_smol
+			}
+		}
+		advisor={
+			
+			
+			slot = high_command
+			idea_token = CUB_max
+			ledger = army
+				allowed = {
+					original_tag = CUB
+				}
+				traits = {
+					army_commando_2
+					smooth_talking_charmer 
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+	}
+}
