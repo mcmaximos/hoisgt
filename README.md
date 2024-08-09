@@ -2,7 +2,14 @@
  A mod for hoi4 adding Union of Trashland States 
 
 
- # content
+
+# Download
+ To download this mod 
+ - Скачайте этот [архив](https://github.com/mcmaximos/hoisgt/archive/refs/heads/main.zip)
+ - Перенести файлы из папки hoisgt-main в Документы/Paradox Interactive/Hearts of Iron IV/mod
+ - Мод появится в лаунчере
+
+ # Content
   - New map
   - Four countries 
   - Country leaders
