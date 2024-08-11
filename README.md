@@ -13,9 +13,11 @@
   - New map
   - Four countries 
   - Country leaders
+  - dumbass ai
 # Зачем я пишу на английском?
  I forgor roshan
 # TODO
+ - Искуственный интелект
  - Сделать миноров 
  - Придумать лор и фокусы
  - Полностью изменить армию:
