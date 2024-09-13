@@ -1,0 +1,19 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		138 394 529 624 694 
+	}
+	history={
+		owner = REI
+		
+		buildings = {
+			
+		}
+		add_core_of = REI
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

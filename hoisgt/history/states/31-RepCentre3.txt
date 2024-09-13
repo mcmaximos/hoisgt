@@ -1,0 +1,24 @@
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		27 47 56 213 243 269 319 407 426 534 653 
+	}
+	history={
+		victory_points = {
+			213 10
+		}
+		owner = REP
+		
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = REP
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=2013512
+        state_category = town
+}

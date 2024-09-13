@@ -1,0 +1,28 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		46 74 86 101 180 290 314 336 340 365 421 494 594 616 655 673 679 
+	}
+	resources = {oil = 228 aluminium= 1337 rubber = 69 tungsten = 52 chromium = 8800}
+	history={
+		owner = LUX
+		victory_points = {
+			365 3
+		}
+		victory_points = {
+			340 3
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 5
+			air_base = 10
+		}
+		add_core_of = LUX
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=4122030
+        state_category = town
+}

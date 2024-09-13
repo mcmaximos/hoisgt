@@ -1,0 +1,29 @@
+﻿capital = 28
+
+oob = "CUB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_country_flag = "CUB.tga"
+set_war_support = 0.33
+set_stability = 0.5
+set_convoys = 20
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 45
+	communism = 55
+}
+
+recruit_character = IMP_ALEKSEI
+recruit_character = IMP_PETR
+recruit_character = IMP_MAXIM

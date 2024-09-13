@@ -1,0 +1,44 @@
+characters={
+	REP_NIKITA={
+		name = "Никита"
+		#desc= ""
+		portraits={
+			civilian={
+				large="GFX_REP_NIKITA"
+			}
+		}
+		country_leader={
+			ideology = stalinism
+		}
+	}
+	
+	REP_VLADISLAV={
+		name="Влад"
+		portraits={
+			civilian={
+				large=GFX_REP_VLADISLAV
+				small=GFX_REP_VLADISLAV_ADV
+			}
+		}
+		country_leader={
+			ideology=nazism
+		}
+		advisor={
+			cost = 100
+			
+			slot = political_advisor
+			idea_token = REP_VLADISLAV
+			ledger = army
+				allowed = {
+					original_tag = REP
+				}
+				
+				traits = {
+					captain_of_industry 
+					silent_workhorse 
+				}
+		}
+	}
+	
+	
+}

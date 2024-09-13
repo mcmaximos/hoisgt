@@ -1,0 +1,18 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		5 23 52 62 130 147 201 214 225 248 250 272 315 344 389 390 402 418 464 468 470 476 513 528 548 553 609 631 640 642 651 687 696 705 706 707 
+	}
+	history={
+		owner = IMP
+		
+		buildings = {
+			
+		}
+		add_core_of = IMP
+	}
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

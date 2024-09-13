@@ -1,0 +1,4 @@
+REI = "countries/FourthReich.txt"
+IMP = "countries/Imperia.txt"
+LUX = "countries/Luxemburg.txt"
+REP = "countries/Republica.txt"

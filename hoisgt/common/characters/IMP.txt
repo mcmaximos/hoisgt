@@ -1,0 +1,71 @@
+characters={
+	IMP_ALEKSEI={
+		name = "Леха"
+		desc = "БАРОН ЭЛЬДЬЯГО САНТА-МАРИЯ ЧЕТВЕРТЫЙ, ВЕЛИЧАЙШИЙ ПОВЕЛИТЕЛЬ ГОСУДАРСТВА ИМПЕРИИ, КОРОЛЬ СЕВЕРНЫХ ЗЕМЕЛЬ ТРЭШЛЯНДИИ И НАРОДА СИТХОВ"
+		portraits={
+			civilian={
+				large="GFX_IMP_ALEKSEI"
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits={ dictator}
+		}
+	}
+	
+	IMP_PETR={
+		name="Пётр"
+		portraits={
+			civilian={
+				large=GFX_IMP_PETR
+				small=GFX_IMP_PETR_ADV
+			}
+		}
+		country_leader={
+			ideology=stalinism
+		}
+		advisor={
+			cost = 100
+			
+			slot = political_advisor
+			idea_token = IMP_PETR
+			ledger = army
+				allowed = {
+					original_tag = IMP
+				}
+				
+				traits = {
+					captain_of_industry 
+					silent_workhorse 
+				}
+		}
+	}
+	
+	IMP_MAXIM={
+		name="Максим"
+		portraits={
+			civilian={
+				large=GFX_IMP_MAXIM
+				small=GFX_IMP_MAXIM_ADV
+			}
+		}
+		advisor={
+			
+			
+			slot = high_command
+			idea_token = IMP_MAXIM
+			ledger = army
+				allowed = {
+					original_tag = IMP
+				}
+				traits = {
+					army_commando_2
+					smooth_talking_charmer 
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+	}
+}

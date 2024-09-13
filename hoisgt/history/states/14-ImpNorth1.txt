@@ -1,0 +1,18 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		2 48 77 92 95 108 136 164 226 268 280 285 301 327 362 366 403 415 424 451 460 522 562 564 570 582 584 600 646 688 691 
+	}
+	history={
+		owner = IMP
+		
+		buildings = {
+			
+		}
+		add_core_of = IMP
+	}
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

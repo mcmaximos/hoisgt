@@ -1,0 +1,19 @@
+state={
+	id=33
+	name="STATE_33"
+	provinces={
+		9 15 31 119 186 215 224 233 257 293 297 300 325 330 334 404 433 488 501 527 537 538 539 585 596 627 656 693 
+	}
+	history={
+		owner = REP
+		
+		buildings = {
+			
+		}
+		add_core_of = REP
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

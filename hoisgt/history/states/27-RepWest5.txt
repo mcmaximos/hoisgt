@@ -1,0 +1,18 @@
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		24 142 210 235 483 595 722 726 
+	}
+	history={
+		owner = REP
+		
+		buildings = {
+			
+		}
+		add_core_of = REP
+	}
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}

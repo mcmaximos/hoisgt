@@ -1,0 +1,51 @@
+spriteTypes = {
+	#REP
+	spriteType={
+		name = "GFX_REP_VLADISLAV"
+		texturefile = "gfx/REP_VLADISLAV.dds"
+	}
+	spriteType={
+		name = "GFX_REP_VLADISLAV_ADV"
+		texturefile = "gfx/REP_VLADISLAV_ADV.dds"
+	}
+	spriteType={
+		name = "GFX_REP_NIKITA"
+		texturefile = "gfx/REP_NIKITA.dds"
+	}
+	#REI
+	spriteType={
+		name = "GFX_REI_IGOR"
+		texturefile = "gfx/REI_IGOR.dds"
+	}
+	spriteType={
+		name = "GFX_REI_IGOR_ADV"
+		texturefile = "gfx/REI_IGOR_ADV.dds"
+	}
+	spriteType={
+		name = "GFX_REI_DANIL"
+		texturefile = "gfx/REI_DANIL.dds"
+	}
+	#IMP
+	spriteType={
+		name = "GFX_IMP_MAXIM"
+		texturefile = "gfx/IMP_MAXIM.dds"
+	}
+	spriteType={
+		name = "GFX_IMP_MAXIM_ADV"
+		texturefile = "gfx/IMP_MAXIM_ADV.dds"
+	}
+	spriteType={
+		name = "GFX_IMP_PETR"
+		texturefile = "gfx/IMP_PETR.dds"
+	}
+	spriteType={
+		name = "GFX_IMP_PETR_ADV"
+		texturefile = "gfx/IMP_PETR_ADV.dds"
+	}
+	spriteType={
+		name = "GFX_IMP_ALEKSEI"
+		texturefile = "gfx/IMP_ALEKSEI.dds"
+	}
+
+
+}

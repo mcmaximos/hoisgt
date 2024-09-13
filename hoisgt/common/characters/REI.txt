@@ -1,0 +1,44 @@
+characters={
+	REI_DANIL={
+		name = "Даня"
+		#desc = "БАРОН ЭЛЬДЬЯГО САНТА-МАРИЯ ЧЕТВЕРТЫЙ, ВЕЛИЧАЙШИЙ ПОВЕЛИТЕЛЬ ГОСУДАРСТВА ИМПЕРИИ, КОРОЛЬ СЕВЕРНЫХ ЗЕМЕЛЬ ТРЭШЛЯНДИИ И НАРОДА СИТХОВ"
+		portraits={
+			civilian={
+				large="GFX_REI_DANIL"
+			}
+		}
+		country_leader={
+			ideology = nazism
+		}
+	}
+	
+	REI_IGOR={
+		name="Игорь"
+		portraits={
+			civilian={
+				large=GFX_REI_IGOR
+				small=GFX_REI_IGOR_ADV
+			}
+		}
+		country_leader={
+			ideology=liberalism
+		}
+		advisor={
+			cost = 100
+			
+			slot = political_advisor
+			idea_token = REI_IGOR
+			ledger = army
+				allowed = {
+					original_tag = REI
+				}
+				
+				traits = {
+					captain_of_industry 
+					silent_workhorse 
+				}
+		}
+	}
+	
+	
+}

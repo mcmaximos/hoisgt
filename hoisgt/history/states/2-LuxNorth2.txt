@@ -1,0 +1,19 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		21 176 192 231 244 275 288 376 405 432 551 607 635 658 664 668 
+	}
+	history={
+		owner = LUX
+		
+		buildings = {
+			
+		}
+		add_core_of = LUX
+	}
+
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = town
+}
