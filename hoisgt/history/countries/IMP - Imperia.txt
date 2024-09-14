@@ -23,7 +23,6 @@ set_popularities = {
 	neutrality = 45
 	communism = 55
 }
-
+recruit_character = IMP_MAXIM
 recruit_character = IMP_ALEKSEI
 recruit_character = IMP_PETR
-recruit_character = IMP_MAXIM
